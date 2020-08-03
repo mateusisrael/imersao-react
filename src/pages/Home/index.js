@@ -9,7 +9,7 @@ import BannerMain from '../../components/BannerMain';
 function Home() {
     return(
         <div>
-            <Menu />
+            <Menu to="/cadastro/video/">Novo Vídeo</Menu>
             <BannerMain
                 videoTitle={dados.categorias[0].videos[0].titulo}
                 url={dados.categorias[0].videos[0].url}
